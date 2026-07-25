@@ -1,0 +1,37 @@
+<template>
+  <div id="app">
+    <!-- Views/Tabs container -->
+    <div class="views tabs safe-areas">
+      <!-- Tabbar for switching views-tabs -->
+      <div class="toolbar tabbar toolbar-bottom tabbar-icons">
+        <div class="toolbar-inner">
+          <a href="#view-home" class="tab-link tab-link-active">
+            <i class="icon f7-icons">house_fill</i>
+            <span class="tabbar-label">Home</span>
+          </a>
+          <a href="#view-projects" class="tab-link">
+            <i class="icon f7-icons">macwindow</i>
+            <span class="tabbar-label">Projects</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Main Home View -->
+      <div id="view-home" class="view view-main view-init tab tab-active" data-name="home" data-url="/">
+        <!-- Home page loads dynamically from / route -->
+      </div>
+
+      <!-- Projects View -->
+      <div id="view-projects" class="view view-init tab" data-name="projects" data-url="/projects/">
+        <!-- Projects page loads dynamically from /projects/ route -->
+      </div>
+    </div>
+
+  </div>
+</template>
+
+<script>
+export default () => {
+  return $render;
+}
+</script>

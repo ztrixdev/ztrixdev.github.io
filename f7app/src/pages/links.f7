@@ -1,0 +1,113 @@
+<template>
+  <div class="page" data-name="links">
+    <div class="navbar navbar-large navbar-transparent">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Links</div>
+        <div class="title-large">
+          <div class="title-large-text">Links</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-content">
+      <div class="block-title">Developer pages</div>
+      <div class="list list-strong inset list-dividers-ios">
+        <ul>
+          <li>
+            <a href="https://github.com/ztrixdev" class="item-link external" target="_blank">
+              <div class="item-content">
+                <div class="item-media">
+                  <i class="icon f7-icons color-black">logo_github</i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title">GitHub</div>
+                  <div class="item-after">@ztrixdev</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+
+          </li>
+        </ul>
+      </div>
+
+      <div class="block-title">Content pages</div>
+      <div class="list list-strong inset list-dividers-ios">
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/@forensictechmate" class="item-link external" target="_blank">
+              <div class="item-content">
+                <div class="item-media">
+                  <i class="icon f7-icons color-red">play_rectangle_fill</i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title">YouTube channel</div>
+                  <div class="item-after">@forensictechmate</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/forensictechmate" class="item-link external" target="_blank">
+              <div class="item-content">
+                <div class="item-media">
+                  <i class="icon f7-icons color-blue">paperplane_fill</i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title">Telegram channel</div>
+                  <div class="item-after">@forensictechmate</div>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="block-title">Contact me</div>
+      <div class="list list-strong inset list-dividers-ios">
+        <ul>
+          <li>
+            <a href="mailto:lex.forensictech@icloud.com" class="item-link external">
+              <div class="item-content">
+                <div class="item-media">
+                  <i class="icon f7-icons color-blue">envelope_fill</i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title">Email</div>
+                  <div class="item-after">lex.forensictech@icloud.com</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://tinyurl.com/dmftlnk" class="item-link external">
+              <div class="item-content">
+                <div class="item-media">
+                  <i class="icon f7-icons color-indigo">chat_bubble_2_fill</i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title">DM me</div>
+                  <div class="item-after">@archscholarft</div>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default () => {
+  return $render;
+}
+</script>

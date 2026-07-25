@@ -1,0 +1,18 @@
+{
+  "cwd": "",
+  "type": [
+    "web"
+  ],
+  "name": "ztrixs asylum",
+  "framework": "core",
+  "template": "tabs",
+  "bundler": "vite",
+  "cssPreProcessor": "scss",
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": true,
+    "iconFonts": true
+  },
+  "customBuild": false
+}
