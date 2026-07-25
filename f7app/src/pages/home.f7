@@ -17,8 +17,27 @@
       <!-- Intro Card -->
       <div class="card card-outline margin-horizontal">
         <div class="card-content card-content-padding text-align-center">
-          <div class="display-flex justify-content-center margin-bottom-sm">
-            <i class="icon f7-icons color-primary" style="font-size: 56px;">sparkles</i>
+            <div class="display-flex justify-content-center margin-bottom">
+              <div style="
+              width: 180px; 
+              height: 180px; 
+              border-radius: 50%; 
+              background: var(--f7-theme-color); 
+              display: flex; 
+              align-items: center; 
+              justify-content: center; 
+              overflow: hidden; 
+            ">
+              <img 
+                src="assets/homeimage.jpg" 
+                style="
+                  width: 100%; 
+                  height: 100%; 
+                  object-fit: cover;
+                " 
+                alt="About me"
+              />
+            </div>
           </div>
           <h2 class="no-margin-top margin-bottom-half">Hi, I'm ztrix</h2>
           <h3  class="no-margin-top margin-bottom-half">a.k.a forensictech, a.k.a maotouyingren</h3>
@@ -26,10 +45,7 @@
             This is my personal website where I host everything related to me, my projects, links, some posts, etc.
           </p>
           
-          <a href="/projects/" class="button button-fill button-large button-round">
-            <i class="icon f7-icons margin-right-half">macwindow</i>
-            <span>See my projects</span>
-          </a>
+          <!--- projects are out for now -->
         </div>
       </div>
 

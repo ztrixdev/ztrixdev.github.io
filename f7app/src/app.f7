@@ -22,9 +22,6 @@
       </div>
 
       <!-- Projects View -->
-      <div id="view-projects" class="view view-init tab" data-name="projects" data-url="/projects/">
-        <!-- Projects page loads dynamically from /projects/ route -->
-      </div>
     </div>
 
   </div>

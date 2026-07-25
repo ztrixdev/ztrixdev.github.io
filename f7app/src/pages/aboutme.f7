@@ -23,11 +23,10 @@
       <!-- Profile Header / Bio Card -->
       <div class="card card-outline margin-horizontal margin-top">
         <div class="card-content card-content-padding text-align-center">
-          <!-- Avatar Icon Placeholder -->
-          <div class="display-flex justify-content-center margin-bottom">
+            <div class="display-flex justify-content-center margin-bottom">
               <div style="
-              width: 120px; 
-              height: 120px; 
+              width: 180px; 
+              height: 180px; 
               border-radius: 50%; 
               background: var(--f7-theme-color); 
               display: flex; 
@@ -42,20 +41,19 @@
                   height: 100%; 
                   object-fit: cover;
                 " 
-                alt="Profile Picture"
+                alt="About me"
               />
             </div>
           </div>
-          
           <h2 class="no-margin-top margin-bottom-half">ztrix</h2>
           <p class="text-color-gray no-margin-top font-size-sm">young developer and tech enthusiast</p>
-          
           <p class="margin-top">
-            I'm really a jack of all trades if you think about it. I make apps, make YouTube videos, cook Asian food, learn languages and sometimes even advocate for privacy and ownership.
+            Oh... hi! I love winter, am passionate about aromatic coffee, listen to rap and scenecore music. I also make YouTube videos, they're cool :3            
           </p>
         </div>
       </div>
 
+      <!-- Interests -->
       <div class="block-title">My interests</div>
       <div class="list list-strong inset list-dividers-ios">
         <ul>
@@ -64,17 +62,21 @@
               <i class="icon f7-icons color-orange">square_stack_3d_up_fill</i>
             </div>
             <div class="item-inner">
-              <div class="item-title">Programming languages</div>
-              <div class="item-after">To some extent, I know Go, Python, JS, Swift, C/C++ and more?</div>
+              <div class="item-title">
+              Programming languages
+              <div class="item-footer">Go, Python, JS, Kotlin, Swift</div>
+              </div>
             </div>
           </li>
           <li class="item-content">
             <div class="item-media">
-              <i class="icon f7-icons color-orange">🇨🇳</i>
+              <i class="icon f7-icons color-orange">globe</i>
             </div>
             <div class="item-inner">
-              <div class="item-title">中文</div>
-              <div class="item-after">我学中文学了几年，对汉语有着浓厚的兴趣。</div>
+              <div class="item-title">
+              Foreign languages 
+                <div class="item-footer">I speak English, Russian and Mandarin</div>
+              </div>
             </div>
           </li>
           <li class="item-content">
@@ -82,8 +84,9 @@
               <i class="icon f7-icons color-orange">logo_apple</i>
             </div>
             <div class="item-inner">
-              <div class="item-title">All things Apple</div>
-              <div class="item-after">Macs, iPhones and the OSes they run on. This includes Hackintoshes.</div>
+              <div class="item-title">All things Apple
+              <div class="item-footer">Macs, Hacks and iPhones</div>
+              </div>
             </div>
           </li>
           <li class="item-content">
@@ -91,18 +94,21 @@
               <i class="icon f7-icons color-orange">lock_fill</i>
             </div>
             <div class="item-inner">
-              <div class="item-title">Privacy & Security</div>
-              <div class="item-after">Selling people is called human trafficking and is prohibited by international law. Now why isn't selling people's data?</div>
+              <div class="item-title">Privacy & Security
+              <div class="item-footer">In the age of information, protect yours</div>
+              </div>
+
             </div>
           </li>
         </ul>
       </div>
+
       <!-- Social / Connect Links -->
       <div class="block-title">Get In Touch</div>
       <div class="list list-strong inset list-dividers-ios">
         <ul>
           <li>
-           <a href="/links/" class="item-content item-link">
+            <a href="/links/" class="item-content item-link">
               <div class="item-media">
                 <i class="icon f7-icons color-blue">link-fill</i>
               </div>
